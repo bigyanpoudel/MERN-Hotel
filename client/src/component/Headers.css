@@ -1,0 +1,85 @@
+.navbar-nav .nav-link {
+    padding-left: 20px !important;
+}
+
+#basic-nav-dropdown {
+    color: black;
+}
+
+#basic-nav-dropdown.active {
+    color: rgb(0, 202, 76);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0, 202, 76);
+}
+
+.navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(0, 202, 76);
+}
+
+.dropdown-item {
+    margin: 5px 10px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+}
+
+
+.dropdown-menu>.dropdown-item:nth-child(5),
+.dropdown-menu>.dropdown-item::after {
+    content: '';
+    width: 2px;
+    position: absolute;
+    z-index: 4;
+    left: 10px;
+    height: 20px;
+    background-color: green;
+    opacity: 0;
+}
+
+.dropdown-menu>.dropdown-item:nth-child(5),
+.dropdown-menu>.dropdown-item:active,
+.dropdown-menu>.dropdown-item.active::after,
+.dropdown-item:hover::after {
+    opacity: 1;
+}
+
+.dropdown-item.active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: rgb(0, 202, 76);
+    background-color: transparent;
+}
+
+
+
+
+.Navbar {
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.dropdown-active {
+    color: red;
+}

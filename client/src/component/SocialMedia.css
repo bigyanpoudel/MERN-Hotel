@@ -1,0 +1,33 @@
+.socialMedia {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Space i {
+    padding-left: 20px;
+    font-size: 25px !important;
+}
+
+.Position {
+    position: absolute;
+    top: 250px;
+    left: 0px
+}
+
+.socialMedia i {
+    font-size: 20px;
+    margin: 20px 10px;
+    color: rgb(110, 110, 110) !important;
+}
+
+.socialMedia i:hover {
+    color: rgb(0, 202, 76) !important;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .Position {
+        top: 120px;
+    }
+
+}
